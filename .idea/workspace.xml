@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3032d85-2edb-4cf3-b64f-0524053958ed" name="Default" comment="TEST MAC COMMIT PUSH">
-      <change afterPath="$PROJECT_DIR$/sql/DML/create_index.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/DML/select_sectors_subsectors_segments.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/DML/select_sectors_subsectors_segments_symbols.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/DML/select_time_series.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b3032d85-2edb-4cf3-b64f-0524053958ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sql/DDL/stocks_routines.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/DDL/stocks_sectors.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/DDL/stocks_segments.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/DDL/stocks_subsectors.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/DDL/stocks_symbols.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/DDL/stocks_time_series.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapper_guiainvest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper_guiainvest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/create_index.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/select_sectors_subsectors_segments.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/select_sectors_subsectors_segments_symbols.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/select_time_series.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_routines.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_routines0.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_sectors.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_segments.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_segments0.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_subsectors.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_symbols.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_symbols0.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_time_series.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stocks_time_series0.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_series.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_series.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,17 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="time_series.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/time_series.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,6 +84,17 @@
             <path>
               <item name="bolsa-valores" type="b2602c69:ProjectViewProjectNode" />
               <item name="bolsa-valores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bolsa-valores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bolsa-valores" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bolsa-valores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bolsa-valores" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="DDL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,17 +273,30 @@
       <option name="project" value="LOCAL" />
       <updated>1553639507499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TEST MAC COMMIT PUSH">
+      <created>1553642160678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553642160678</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TEST MAC COMMIT PUSH">
+      <created>1553642272855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553642272855</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="153" y="23" width="1591" height="1008" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30191082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30191082" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32930845" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -414,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/time_series.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
