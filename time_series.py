@@ -4,15 +4,19 @@ import json
 from db_time_series import DbTimeSeries
 
 
-stocks = ['FDMO']
+stocks = ['ARMT34.SAO']
 
 for stock in stocks:
-    url = u"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={}.SA" \
-          u"&interval=60min&outputsize=full&apikey=0244".format(stock)
+    url = u"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY" \
+          u"&symbol={}.SA&interval=60min&outputsize=full&apikey=0244".format(stock)
     response = requests.get(url)
 
     if(response.ok):
         data = json.loads(response.content)
+
+        if ("Error Message" in data):
+            print(u"Stock {} couldn't be processed.".format(stock))
+            continue
 
         for time_serie in data["Time Series (60min)"]:
             symbol = data["Meta Data"]["2. Symbol"]
