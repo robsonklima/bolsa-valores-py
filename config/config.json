@@ -1,7 +1,7 @@
 {
     "mysql": {
         "user": "root",
-        "password": "Rkl@2030",
+        "password": "Mysql@2018",
         "host": "127.0.0.1",
         "database": "stocks"
     }
