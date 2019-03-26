@@ -31,7 +31,6 @@ for i, symbol in enumerate(symbols):
         }
 
         print(data["bestMatches"][0]["1. symbol"])
-
         DbSymbol.update(data["bestMatches"][0]["1. symbol"], symbol["symbol_id"])
     else:
         response.raise_for_status()
