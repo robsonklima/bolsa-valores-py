@@ -27,7 +27,6 @@ for symbol in symbols:
             volume = (data["Time Series (60min)"][time_serie]["5. volume"])
 
             DbTimeSeries.insert(time_serie, symbol["symbol_code"], open, high, low, close, volume)
-
         print(u"Stock {} processed.".format(symbol["symbol_code"]))
     else:
         response.raise_for_status()
