@@ -36,3 +36,6 @@ for symbol in symbols:
 
             if "Nenhuma informação encontrada.".decode('utf-8', 'ignore') not in cols[0]:
                 DbSymbol.update(cols[1], symbol["symbol_id"])
+    finally:
+        bs = None
+        table_body = None
