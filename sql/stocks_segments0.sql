@@ -26,9 +26,7 @@ CREATE TABLE `segments` (
   `segment_id` int(11) NOT NULL AUTO_INCREMENT,
   `subsector_id` int(11) DEFAULT NULL,
   `name` varchar(90) DEFAULT NULL,
-  PRIMARY KEY (`segment_id`),
-  KEY `fk_subsectors_segments_idx` (`subsector_id`),
-  CONSTRAINT `fk_subsectors_segments` FOREIGN KEY (`subsector_id`) REFERENCES `subsectors` (`subsector_id`)
+  PRIMARY KEY (`segment_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=88 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -51,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-26 16:19:01
+-- Dump completed on 2019-03-26 16:13:09

@@ -26,7 +26,9 @@ CREATE TABLE `subsectors` (
   `subsector_id` int(11) NOT NULL,
   `sector_id` int(11) DEFAULT NULL,
   `name` varchar(90) DEFAULT NULL,
-  PRIMARY KEY (`subsector_id`)
+  PRIMARY KEY (`subsector_id`),
+  KEY `fk_sectors_subsectors_idx` (`sector_id`),
+  CONSTRAINT `fk_sectors_subsectors` FOREIGN KEY (`sector_id`) REFERENCES `sectors` (`sector_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -49,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-26 15:11:25
+-- Dump completed on 2019-03-26 16:19:02

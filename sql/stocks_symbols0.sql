@@ -29,9 +29,7 @@ CREATE TABLE `symbols` (
   `symbol` varchar(40) DEFAULT NULL,
   `symbol_code` varchar(40) DEFAULT NULL,
   `segment` varchar(12) DEFAULT NULL,
-  PRIMARY KEY (`symbol_id`),
-  KEY `fk_symbols_segments_idx` (`segment_id`),
-  CONSTRAINT `fk_symbols_segments` FOREIGN KEY (`segment_id`) REFERENCES `segments` (`segment_id`)
+  PRIMARY KEY (`symbol_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=547 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -54,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-26 16:19:00
+-- Dump completed on 2019-03-26 16:13:09
