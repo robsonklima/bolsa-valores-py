@@ -37,6 +37,22 @@ class DbSymbol:
             db.close()
 
     @staticmethod
+    def get_all_with_symbol_codes():
+        try:
+            db = pymysql.connect(**config["mysql"])
+            with db.cursor(pymysql.cursors.DictCursor) as cursor:
+                sql = u"SELECT * FROM `symbols`" \
+                      u" WHERE `symbol_code` IS NOT NULL" \
+                      u" ORDER BY `symbol_id` ASC"
+                cursor.execute(sql)
+
+            return cursor.fetchall()
+        except Exception as ex:
+            print(ex)
+        finally:
+            db.close()
+
+    @staticmethod
     def update(symbol_code, symbol_id):
         try:
             db = pymysql.connect(**config["mysql"])

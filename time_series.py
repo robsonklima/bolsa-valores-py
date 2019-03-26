@@ -5,7 +5,7 @@ from db_symbol import DbSymbol
 from db_time_series import DbTimeSeries
 
 
-symbols = DbSymbol.get_all()
+symbols = DbSymbol.get_all_with_symbol_codes()
 
 for symbol in symbols:
     url = u"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={}.SA" \
