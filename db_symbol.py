@@ -27,7 +27,6 @@ class DbSymbol:
             db = pymysql.connect(**config["mysql"])
             with db.cursor(pymysql.cursors.DictCursor) as cursor:
                 sql = u"SELECT * FROM `symbols`" \
-                      u" WHERE symbol_code IS NULL" \
                       u" ORDER BY `symbol_id` ASC"
                 cursor.execute(sql)
 
